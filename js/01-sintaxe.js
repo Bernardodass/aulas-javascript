@@ -1,5 +1,5 @@
 /* Habilitando o modo estrito da linguagem. Ao fazer isso, a linguagem passa a analisar se você declarou variáveis e não está usando palavras-reservadas. Se isso acontecer, erros serão exibidos. */
-'use strict'; 
+'use strict';
 
 // Comentário de APENAS uma linha ( CTRL ; )
 /* Comentário de 
@@ -49,7 +49,7 @@ console.log(publica);
 /* Estou fazendo o curso de HTML5 e CSS3 no Senac Penha. */
 
 // CONCATERAÇÃO (forma mais antiga/tradicional)
-console.log("Estou fazendo o curso de "+curso+" no "+escola+".");
+console.log("Estou fazendo o curso de " + curso + " no " + escola + ".");
 
 // TEMPLATE LITERAL/STRING (forma mais moderna)
 console.log(`Estou fazendo o curso de ${curso} no ${escola}.`);
@@ -61,7 +61,7 @@ console.log(mensagem);
 
 
 /* Operações matemáticas básicas */
-let valor1 = 10; 
+let valor1 = 10;
 let valor2 = 5;
 let valor3 = 1200.55;
 
@@ -71,7 +71,7 @@ let subtracao = valor1 - valor2;
 let multiplicacao = valor1 * valor2
 let divisao = valor1 / valor2
 
-console.log("Soma "+soma);
-console.log("Subtração "+subtracao);
-console.log("Multiplicação "+multiplicacao);
-console.log("Divisão "+divisao);
+console.log("Soma " + soma);
+console.log("Subtração " + subtracao);
+console.log("Multiplicação " + multiplicacao);
+console.log("Divisão " + divisao);
