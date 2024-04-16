@@ -1,10 +1,11 @@
 'use strict'
 
+
 // declarando um array de alunos
 const alunos = ["Wilian", "Vinicius", "Marli", "Duda", "Gabriel"];
 
 // Exibindo a estrutura do array (somente no console)
-console.log(alunos); 
+console.log(alunos);
 
 // acessando individualmente alguns alunos ATRAVÉS DO INDICE
 console.log(alunos[1]); // Vinicius
@@ -20,3 +21,14 @@ console.log(alunos[0]); // Wilian
 const gostos = ["brigadeiro", "coxinha", "bolinha de queijo", "pao de queijo", "pao com manteiga", "croissaint", "pizza"];
 
 console.log(`Eu gosto de ${gostos[1]}, ${gostos[4]} e ${gostos[6]}.`);
+
+/* matriz (array com mais de uma dimensão)  */
+const tecnologias = [
+
+    ["HTML5", "CSS3", "JavaScript"],
+
+    ["PHP", "Node.js", "SQL", "Python", "Firebase"]
+
+];
+
+console.log(tecnologias[0][1]); // CSS3
