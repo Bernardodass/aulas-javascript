@@ -14,6 +14,9 @@
     <!-- Toda programação JS precisa estar dentro de uma tag de script ou apontar para um script externo. Normalmente, o script fica no final da página (antes de terminar o body) -->
     <script>
 
+        /* Habilitando o modo estrito da linguagem. Ao fazer isso, a linguagem passa a analisar se você declarou variáveis e não está usando palavras-reservadas. Se isso acontecer, erros serão exibidos. */
+        'use strict'; 
+
         // Comentário de APENAS uma linha ( CTRL ; )
         /* Comentário de 
         Múltiplas linhas ( SHIFT ALT A ) */
@@ -30,13 +33,48 @@
         let ano = 2024; /* números (inteiro/real), sem aspas */
 
 
+        // Váriavel sem valor definido
+        let disciplina = "lógica";
+        console.log(disciplina)
+
+
+        // Atribuindo valor APÓS declarar variável
+        disciplina = "Lógica";
+
+
         // Constantes (valores fixos, não podem ser modificados)
         const escola = "Senac Penha";
 
+        const materia = "Portguês";
 
         console.log(curso)
         console.log(ano)
         console.log(escola);
+        
+
+        let nomeDavariavel = "Algum valor"
+        console.log(nomeDavariavel);
+
+        /* Palavras-chave de uso reservado: public, implements, private, arguments */
+        let publica = "Palavra-reservada!";
+        console.log(publica);
+        // console-log(public)
+
+        /* Saída de dados personalizada */
+
+        /* Estou fazendo o curso de HTML5 e CSS3 no Senac Penha. */
+
+        // CONCATERAÇÃO (forma mais antiga/tradicional)
+        console.log("Estou fazendo o curso de "+curso+" no "+escola+".");
+
+        // TEMPLATE LITERAL/STRING (forma mais moderna)
+        console.log(`Estou fazendo o curso de ${curso} no ${escola}.`);
+
+        let mensagem = `Estou fazendo o curso de ${curso} no ${escola}.`;
+
+        // Dando saída na frase já montada
+        console.log(mensagem);
+
     </script>
 </body>
 
