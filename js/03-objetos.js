@@ -58,5 +58,5 @@ const pessoa = {
     }
 }
 console.log(
-    `o ${pessoa.nome} tem ${pessoa.medidasFisicas.peso} e ${pessoa.medidasFisicas.altura} de altura. Contato: ${pessoa.telefones[1]}`
+    `o ${pessoa.nome} tem ${pessoa.medidasFisicas.peso}kg e ${pessoa.medidasFisicas.altura} de altura. Contato: ${pessoa.telefones[1]}`
 );
