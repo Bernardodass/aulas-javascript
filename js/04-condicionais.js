@@ -25,8 +25,15 @@ if(numero > 5){
 let usuario = "Tukika Navara";
 let idade = 23;
 
+// variavel com proposito de guardar a palavra "maior" ou "menor"
+let texto; // undefined/indefinida
+
 if(idade>=18){
-    console.log(`${usuario} é maior de idade.`);
+    texto = "maior";
+ // console.log(`${usuario} é maior de idade.`);
 } else {
-console.log(`${usuario} é menor de idade.`);
+    texto = "menor";
+// console.log(`${usuario} é menor de idade.`);
 }
+
+console.log(`${usuario} é ${texto} de idade.`);
