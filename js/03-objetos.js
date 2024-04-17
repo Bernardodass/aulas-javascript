@@ -60,5 +60,3 @@ const pessoa = {
 console.log(
     `o ${pessoa.nome} tem ${pessoa.medidasFisicas.peso} e ${pessoa.medidasFisicas.altura}de altura. Contato: ${pessoa.telefones[0]}`
 );
-
-
