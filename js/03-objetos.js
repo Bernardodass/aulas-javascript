@@ -47,15 +47,18 @@ console.log(`O ${pagani.modelo} fabricado em ${pagani.adf} com ${pagani.qdp} e c
 
 // objeto array e outro objeto
 const pessoa = {
-    nome: "tukika navara"
-    idade: 20
+    nome: "tukika navara",
+    idade: 20,
     telefones: ["11-2135-0300", "11-96666-5555"],
 
     // propriedade como objeto
     medidasFisicas: {
-        peso: 98,
-        altura: 2.12
+    peso: 98,
+    altura: 2.12
     }
 }
+console.log(
+    `o ${pessoa.nome} tem ${pessoa.medidasFisicas.peso} e ${pessoa.medidasFisicas.altura}de altura. Contato: ${pessoa.telefones[0]}`
+);
 
 
