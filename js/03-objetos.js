@@ -45,6 +45,17 @@ const pagani = {
 
 console.log(`O ${pagani.modelo} fabricado em ${pagani.adf} com ${pagani.qdp} e com ${pagani.opcionais[0]}, é um famoso carro na Arábia Saudita `);
 
+// objeto array e outro objeto
+const pessoa = {
+    nome: "tukika navara"
+    idade: 20
+    telefones: ["11-2135-0300", "11-96666-5555"],
 
+    // propriedade como objeto
+    medidasFisicas: {
+        peso: 98,
+        altura: 2.12
+    }
+}
 
 
