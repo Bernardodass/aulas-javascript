@@ -3,10 +3,10 @@
 // declarando um objeto
 const livro = {
     titulo: "Senhor dos Anéis", //propriedade : valor
-    autor : "J.R.R. Tolkien",
-    volumes : 3,
+    autor: "J.R.R. Tolkien",
+    volumes: 3,
     ano: 1954,
-    preco : 250.77
+    preco: 250.77
 };
 
 console.log(livro);
@@ -33,12 +33,14 @@ console.log(
 o fiat uno fabricado em 1996 com 2 portas e com vidros elétricos, foi um famoso carro no Brasil*/
 
 const pagani = {
-    marca : "Pagani",
-    modelo : "Huayra Imola",
-    adf : 2020,
-    qdp : 2,
+    marca: "Pagani",
+    modelo: "Huayra Imola",
+    adf: 2020,
+    qdp: 2,
     cor: "roxo",
-    opcionais: ["vidros eletricos", "ar-condicionado", "alarme"] 
+
+    // propriedade como array
+    opcionais: ["vidros eletricos", "ar-condicionado", "alarme"]
 }
 
 console.log(`O ${pagani.modelo} fabricado em ${pagani.adf} com ${pagani.qdp} e com ${pagani.opcionais[0]}, é um famoso carro na Arábia Saudita `);
