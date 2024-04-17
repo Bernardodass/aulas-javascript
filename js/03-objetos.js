@@ -47,7 +47,7 @@ console.log(`O ${pagani.modelo} fabricado em ${pagani.adf} com ${pagani.qdp} e c
 
 // objeto array e outro objeto
 const pessoa = {
-    nome: "tukika navara",
+    nome: "Tukika Navara",
     idade: 20,
     telefones: ["11-2135-0300", "11-96666-5555"],
 
