@@ -82,4 +82,3 @@ switch(opcao){
 }
 console.log("opção escolhida: "+opcao);
 console.log("mensagem: "+mensagem);
-
