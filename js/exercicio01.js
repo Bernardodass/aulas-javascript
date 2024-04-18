@@ -38,3 +38,16 @@ else{
 }
 
 console.log(media);
+
+
+console.log("-------")
+
+if(media>=8){
+    var teste = "ok";
+} else {
+    var teste = "não ok";
+}
+
+console.log(teste);
+teste = "aaaaa"
+console.log(teste);
