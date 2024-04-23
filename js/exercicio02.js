@@ -19,10 +19,15 @@ const clientes = [
     { id: 2, nome: "Saitama" },
     { id: 3, nome: "Luffy" }
 ];
+
+// usando o FOR
+
 /* for (let i = 0; i < clientes.length; i++) { 
     console.log(`cliente: ${clientes[i].nome} (id: ${clientes[i].id})`); 
 } */
+
+// usando o FOR/OF
+
 for (const cliente of clientes) {
     console.log(`cliente: ${cliente.nome} (id: ${cliente.id})`);
 }
-
