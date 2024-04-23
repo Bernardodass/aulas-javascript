@@ -1,6 +1,6 @@
 'use strict'
 
-/* loops masi usados:
+/* loops mais usados:
 - while (enquanto)
 - for (para) 
 
