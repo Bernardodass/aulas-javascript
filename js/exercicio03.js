@@ -1,20 +1,32 @@
-'use strict'
+'use strict';
 
-// Função para converter de reais para dólares
-function convertermoeda(valoremreais, taxadecambio) {
-    return valoremreais * taxadecambio;
+let cotacaoDoDia = 5.16;
+let valorEmDolar = 1000;
+
+function converterEmReais(valor){
+    return valor * cotacaoDoDia;
 }
 
-// Exemplo de uso da função
-let valoremreais = 4; 
-let taxadecambio = 5.15;
-let valoremdolares = convertermoeda(valoremreais, taxadecambio);
+function formatarMoeda(valor){
+    const opcoes = {
+        style: "currency",
+        currency: "BRL"
+    };
 
-console.log("R$" + valoremreais + " equivalem a $" + valoremdolares.toFixed(2));
+    return new Intl.NumberFormat(
+        "pt-br", opcoes
+    ).format(valor);
+}
 
-function formatarMoeda(valor){    const opcoes = {        style: "currency",        currency: "BRL"    };    return new Intl.NumberFormat(        "pt-br", opcoes    ).format(valor);}
+// Versão sem formatação
+console.log( converterEmReais(valorEmDolar) );
 
-console.log(convertermoeda (valoremdolares));
+// Versão 1 (função como parâmetro para outra função) com formatação
+console.log( 
+    formatarMoeda( converterEmReais(valorEmDolar) ) 
+);
 
-console.log(formatarMoeda (convertermoeda(valoremreais)));
+// Versão 2 (primeiro, guardamos o resultado da conversão; depois passamos o resultado para a formatação)
+let resultadoEmReais = converterEmReais(valorEmDolar);
+console.log( formatarMoeda(resultadoEmReais) );
 
