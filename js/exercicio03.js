@@ -29,4 +29,3 @@ console.log(
 // Versão 2 (primeiro, guardamos o resultado da conversão; depois passamos o resultado para a formatação)
 let resultadoEmReais = converterEmReais(valorEmDolar);
 console.log( formatarMoeda(resultadoEmReais) );
-
