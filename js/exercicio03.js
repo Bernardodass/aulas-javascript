@@ -1,6 +1,6 @@
 'use strict';
 
-let cotacaoDoDia = 5.16;
+let cotacaoDoDia = 5.15;
 let valorEmDolar = 1000;
 
 function converterEmReais(valor){
