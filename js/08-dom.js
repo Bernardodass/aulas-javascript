@@ -29,8 +29,17 @@ console.log(sobrefront); // por ID
 
 2) faça o acesso/seleção apenas do h2 existente dentro da div com a classe 'editores' e mostre no console. */
 
-const h2doback = document.querySelector(".back-end")
+const h2doback = document.querySelector(".back-end");
 console.log(h2doback);
 
-const h2editores = document.querySelector(".editores h2")
+const h2editores = document.querySelector(".editores h2");
 console.log(h2editores);
+
+// exeplo 3: querySelectorALL()    -obs: funciona parecido com array
+const subtitulos = document.querySelectorAll("h2")
+console.log(subtitulos);
+
+const varioselementos = document.querySelectorAll("p, a")
+console.log(varioselementos);
+
+/* modificando o DOM */
