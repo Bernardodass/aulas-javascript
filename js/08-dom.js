@@ -42,4 +42,34 @@ console.log(subtitulos);
 const varioselementos = document.querySelectorAll("p, a")
 console.log(varioselementos);
 
-/* modificando o DOM */
+/* modificando o DOM:
+- podemos alterar conteúdo, tags, estilos, criar elementos, remover elementos etc */
+
+// alteração de conteúdo textual
+legenda.textContent = "imagem do modelo de objetos do documento";
+
+// alteração de conteúdo com suporte à tags
+sobrefront.innerHTML = "<i>front-end</i>";
+
+// alteração de estilos inline (CSS in JS)
+h2doback.style.color = "red";
+h2doback.style.textAlign = "center";
+
+
+// aplicação de classes CSS via javascript
+titulo.classList.add("destaque");
+
+const listadeeditores = [
+    {
+        nome: "visual studio code",
+        finalidade: "desenvolvimento web em geral" 
+    },
+    {
+        nome: "android studio",
+        finalidade: "desenvolvimento de aplicações android"
+    },
+    {
+        nome: "xcode",
+        finalidade: "desenvolvimento de aplicações iOS"
+    }
+]
