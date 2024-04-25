@@ -62,7 +62,7 @@ titulo.classList.add("destaque");
 const listadeeditores = [
     {
         nome: "visual studio code",
-        finalidade: "desenvolvimento web em geral" 
+        finalidade: "desenvolvimento web em geral"
     },
     {
         nome: "android studio",
@@ -81,7 +81,7 @@ console.log(lista);
 /* percorrer (loop) o array de listadeeditores e criar os itens <li> com o conteúdo do array e adicioná-los à lista HTML. */
 
 // for( variavel/constante de acesso- of -array com dados que queremos acessar)
-for(const editor of listadeeditores){
+for (const editor of listadeeditores) {
     // etapa 1: criar elemento <li>
     const item = document.createElement("li");
 
@@ -91,3 +91,11 @@ for(const editor of listadeeditores){
     // etapa 3: adicionar o elemento à lista <ol>
     lista.appendChild(item); // anexar/inserir filho
 }
+
+
+/* criando/configurando atributos HTML via JS */
+const linksreferencia = document.querySelectorAll(".referencias a")
+for(const link of linksreferencia) {
+    link.setAttribute("target", "_blank"); // setar/colocar atributo
+}
+
