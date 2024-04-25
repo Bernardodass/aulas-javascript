@@ -50,4 +50,21 @@ botao.addEventListener("click", function(){
     // usamos toggle para alternar entre os estados da classe (aplicada e não aplicada)
     pagina.classList.toggle("noturno");
     divcontainer.classList.toggle("noturno");
+
+    /* DESAFIOS!! */
+
+    /* 1) aplicar um efeito de mudança de cores suave*/
+    
+   /* 2) fazer o botao mudar de texto, ou seja, inicia com o texto "ativar* e troca para texto "desativar" conforme o que estiver acontecendo. */
+
+
+    if(botao.textContent === "Ativar"){
+        botao.textContent = "Desativar"
+    }
+    else {
+        botao.textContent = "Ativar"
+    }
+
+    divcontainer.style.transition = "1s"
+    
 });
