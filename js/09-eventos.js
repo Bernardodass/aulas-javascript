@@ -58,7 +58,7 @@ botao.addEventListener("click", function(){
    /* 2) fazer o botao mudar de texto, ou seja, inicia com o texto "ativar* e troca para texto "desativar" conforme o que estiver acontecendo. */
 
 
-    
+    // solução 1:
     if(botao.textContent === "Ativar"){
         botao.textContent = "Desativar"
     }
@@ -67,5 +67,25 @@ botao.addEventListener("click", function(){
     }
 
     divcontainer.style.transition = "1s"
-    
 });
+
+// solução 2: analisar onde a classe foi aplicada
+
+    /* if (pagina.classList.contains("noturno")) {
+        botao.textContent = "Desativar";
+    } else {
+        botao.textContent = "Ativar";
+    }*/
+
+    
+    /* sobre o duplo sinal de igual ==
+        e o triplo sinal de igual ===
+        
+        == IGUALDADE (considera somente o valor)
+        === IGUALDADE ESTRITA (considera o valora E o tipo de dado)
+        */
+
+let a = 10
+let b = "10"
+console.log(a == b);
+console.log(a === b);
