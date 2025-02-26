@@ -5,7 +5,7 @@
 /* Comentário de 
 Múltiplas linhas ( SHIFT ALT A ) */
 
-// Cinabdi de saída de dados
+// Saída de dados
 console.log("Hello World!")
 
 
